@@ -1,0 +1,25 @@
+{
+  "name": "@csmtools/cli",
+  "version": "1.0.0",
+  "bin": "build/bin.js",
+  "type": "module",
+  "repository": "https://github.com/CSMTools/CLI",
+  "author": "Albin Hedwall <albin.hedwall@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@types/yargs": "^17.0.24",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
